@@ -14,7 +14,7 @@ console.log("2:", helloWorld, itemPrice, trueFalse);
 // Exercise 3: Single-Line Comments
 // Stores the user's current grade in class
 let currentGrade = 99;
-console.log("3: Current score is", currentScore);
+console.log("3: Current grade is", currentGrade);
 
 // Exercise 4: Equality Comparison
 console.log("4: (==):", '100' == 100);   
@@ -24,8 +24,8 @@ console.log("4: (===):", '100' === 100);
 // Exercise 5: Ternary Operator
 let isTheWeekend = false;
 let schedule;
-schedule = isTheWeekend ? "Day off" : "Work day";
-console.log("5: ", schedule);
+schedule = isTheWeekend ? "Day off" :"Work day";
+console.log("5: ",schedule);
 
 // Exercise 6: If/Else Structure
 let userAge = 16;
@@ -71,10 +71,11 @@ console.log("11: area is", resultArea);
 
 // Exercise 12: Array Manipulation
 let fruitList = ['Apple', 'Banana'];
+console.log("12: Fruit list is", fruitList);
 fruitList.push('Grape');
 fruitList.shift();
-console.log("12: Banana index is", fruitList.indexOf('Banana'));
 console.log("12: Updated fruit list is", fruitList);
+console.log("12: Banana index is", fruitList.indexOf('Banana'));
 
 // Exercise 13: Array Copying
 let originalData = [10, 20, 30];

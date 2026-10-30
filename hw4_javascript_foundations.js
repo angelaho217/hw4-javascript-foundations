@@ -12,9 +12,9 @@ let trueFalse = true;
 console.log("2:", helloWorld, itemPrice, trueFalse);
 
 // Exercise 3: Single-Line Comments
-// Stores the user's current grade in class
-let currentGrade = 99;
-console.log("3: Current grade is", currentGrade);
+// Stores the user's current score.
+let currentScore = 95;
+console.log("3: Current score is", currentScore);
 
 // Exercise 4: Equality Comparison
 console.log("4: (==):", '100' == 100);   
@@ -30,16 +30,16 @@ console.log("5: ",schedule);
 // Exercise 6: If/Else Structure
 let userAge = 16;
 if (userAge >= 18) {
-  console.log("6: Adult");
+  console.log("Access Granted");
 } else {
-  console.log("6: Kid");
+  console.log("Access Denied");
 }
 
 // Exercise 7: Logical AND Operator
 let hasPermission = true;
 let itemCount = 3;
 if (hasPermission && itemCount < 5) {
-  console.log("7: ready to process");
+  console.log("Ready to process");
 }
 
 // Exercise 8: For Loop

@@ -39,7 +39,7 @@ if (userAge >= 18) {
 let hasPermission = true;
 let itemCount = 3;
 if (hasPermission && itemCount < 5) {
-  console.log("7: permission granted");
+  console.log("7: ready to process");
 }
 
 // Exercise 8: For Loop

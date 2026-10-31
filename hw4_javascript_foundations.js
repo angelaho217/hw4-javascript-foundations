@@ -30,16 +30,16 @@ console.log("5: ",schedule);
 // Exercise 6: If/Else Structure
 let userAge = 16;
 if (userAge >= 18) {
-  console.log("Access Granted");
+  console.log("6: Access Granted");
 } else {
-  console.log("Access Denied");
+  console.log("6: Access Denied");
 }
 
 // Exercise 7: Logical AND Operator
 let hasPermission = true;
 let itemCount = 3;
 if (hasPermission && itemCount < 5) {
-  console.log("Ready to process");
+  console.log("7: Ready to process");
 }
 
 // Exercise 8: For Loop
